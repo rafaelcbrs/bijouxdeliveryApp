@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/toastlinearinfo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@color/headre_color_backgroud">
+    <ImageView
+        android:id="@+id/custom_toast_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="logo image"
+        android:layout_gravity="center"
+        android:background="@color/headre_color_backgroud"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:id="@+id/txtToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="To"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorBranco"
+        android:text="JavaTpoint custom Toast" />
+    </LinearLayout>
+</LinearLayout>

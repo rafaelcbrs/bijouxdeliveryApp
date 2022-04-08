@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Bijoux Delivery</string>
+    <string name="app_titulo">Bijoux Delivery</string>
+
+
+    <string name="tituloAnel">Anéis</string>
+    <string name="emailContato">Contato:</string>
+    <string name="emailSuporte">suporte@bijouxdelivery.com.br</string>
+
+    <string name="editTelefone">Telefone: Ex: 5100000000</string>
+
+    <string name="editTextPesquisa">Cep: ex:91787001</string>
+    <string name="editTextfotoproduto">Foto do produto.</string>
+
+
+    <string name="txtCategoria">Categoria do produto:</string>
+    <string name="txtNomeProduto">Nome do produto:</string>
+    <string name="txtQuantidade">Quantidade: ex: 10</string>
+    <string name="txtValorProduto">Valor do produto:</string>
+    <string name="txtFornecedor">Fornecido por:</string>
+    <string name="txtEstado">Estado:</string>
+    <string name="txtCidade">Cidade:</string>
+    <string name="txtVoucher">Voucher:</string>
+
+
+    <string-array name="Languages">
+        <item>Anéis</item>
+        <item>Brincos</item>
+        <item>Colares</item>
+        <item>Pulseiras</item>
+        <item>Tiaras</item>
+        <item>Inverno</item>
+        <item>Verão</item>
+        <item>Máscaras</item>
+        <item>Artesanato</item>
+    </string-array>
+
+
+</resources>

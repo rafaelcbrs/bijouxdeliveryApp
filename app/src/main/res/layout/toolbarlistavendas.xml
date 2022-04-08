@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorbar"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_voltar"
+        android:id="@+id/icovoltarListaVendas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTituloVendas"
+        style="@style/TextMenuNavigation"
+        android:layout_marginLeft="30dp"
+        android:gravity="left"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/editTextPesquisaListaVendas"
+        android:maxLength="8"
+        android:inputType="number"
+        android:textColorHint="@color/colorBranco"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/colorBranco"
+        android:hint="@string/editTextPesquisa"
+        android:textColor="@color/colorBranco"/>
+
+</androidx.appcompat.widget.Toolbar>

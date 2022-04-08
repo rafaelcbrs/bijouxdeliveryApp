@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <item
+        android:title="@string/tituloAnel"
+        android:id="@+id/txtTituloAnel"
+        />
+    <item
+        android:title="Brincos"
+        android:id="@+id/txtBrincos"
+        />
+    <item
+        android:title="Colares"
+        android:id="@+id/txtColares"
+        />
+    <item
+        android:title="Pulseiras"
+        android:id="@+id/txtPulseiras"
+        />
+    <item
+        android:title="Tiaras"
+        android:id="@+id/txtTiaras"
+        />
+    <item
+        android:title="Inverno"
+        android:id="@+id/txtInverno"
+        />
+    <item
+        android:title="Verão"
+        android:id="@+id/txtVerao"
+        />
+    <item
+        android:title="Máscaras"
+        android:id="@+id/txtMascaras"
+        />
+    <item
+        android:title="Artesanato"
+        android:id="@+id/txtArtesanato"
+        />
+
+
+</menu>

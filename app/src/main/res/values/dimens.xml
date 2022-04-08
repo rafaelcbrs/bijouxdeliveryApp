@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ico_splash">70dp</dimen>
+    <dimen name="textTitulo">20dp</dimen>
+    <dimen name="logo_header">80dp</dimen>
+
+
+</resources>
